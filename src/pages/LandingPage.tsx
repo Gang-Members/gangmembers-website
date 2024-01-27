@@ -4,7 +4,7 @@ const Blog: React.FC = () => {
     return (
         <>
             <div>
-                <h1>Blog</h1>
+                <h1>LandingPage</h1>
             </div>
         </>
     );

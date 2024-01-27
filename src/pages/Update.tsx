@@ -3,7 +3,7 @@ import React from "react";
 const Update: React.FC = () => {
     return (
         <div>
-            <h1>motm is ikke</h1>
+            <h1>BlogUpdate</h1>
         </div>
     );
 };
