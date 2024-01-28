@@ -4,11 +4,9 @@ import Footer from "../components/Footer";
 
 const Motm: React.FC = () => {
     return (
-        <>
-            <div>
-                <h1>Motm</h1>
-            </div>
-        </>
+        <div>
+            <h1>Motm</h1>
+        </div>
     );
 };
 
