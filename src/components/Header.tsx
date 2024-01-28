@@ -1,9 +1,10 @@
 import React from "react";
+import Hero from "./Hero";
 
 const Header: React.FC = () => {
     return (
         <header>
-            <h1>Header</h1>
+            <Hero />
         </header>
     );
 };
