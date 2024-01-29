@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --text: #D9D9D9;
+        --black-text: #040104;
+        --background: #1B1B1B;
+        --linen: #F3E9DC;
+        --accent: #AE8CFF;
+        --darkaccent: #5941A9;
+        --darkestaccent: #2E104F;
+    }
+
+}
+
+* {
+    min-height: 0;
+}
+
+

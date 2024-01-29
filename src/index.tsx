@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import './index.css';
+import './globals.css';
+import './fonts.css';
 
-//Components import - Misschien weg?
+//Components import - niet weg!!
+import Navbar from "./components/svg/Navbar";
 import Header from './components/Header';
 import Footer from './components/Footer';
+import PageWrapper from "./components/PageWrapper";
 
 //Pages imports
 import Motm from './pages/Motm';
@@ -25,7 +28,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Header/>
+    <PageWrapper>
+      <Header />
+      <Navbar />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -37,7 +42,8 @@ root.render(
           <Route path="/Blog/Detail" element={<Detail />} />
         </Routes>
       </BrowserRouter>
-    <Footer/>
+      <Footer/>
+    </PageWrapper>
   </React.StrictMode>
 );
 

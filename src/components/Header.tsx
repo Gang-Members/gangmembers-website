@@ -1,12 +1,12 @@
 import React from "react";
-import Hero from "./Hero";
-import HeroFlat from "./HeroFlat";
+import Hero from "./svg/Hero";
+import Text from "./svg/Text";
 
 const Header: React.FC = () => {
     return (
-        <header>
+        <header className="absolute w-full">
             <Hero />
-            <HeroFlat />
+            <Text />
         </header>
     );
 };
