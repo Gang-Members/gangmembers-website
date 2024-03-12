@@ -1,6 +1,6 @@
 import React from "react";
 
-const Blog: React.FC = () => {
+export default function blog() {
     return (
         <>
             <div>
@@ -9,5 +9,3 @@ const Blog: React.FC = () => {
         </>
     );
 };
-
-export default Blog;

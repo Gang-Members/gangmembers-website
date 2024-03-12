@@ -1,11 +1,9 @@
 import React from "react";
 
-const Create: React.FC = () => {
+export default function create() {
     return (
         <div>
             <h1>BlogCreate</h1>
         </div>
     );
 };
-
-export default Create;
