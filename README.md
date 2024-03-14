@@ -1,10 +1,8 @@
-# The start of the GangMembers website
+# GangMembers website
 
-This project is being worked on by the community of GangMembers
+The Gang Members website is a hub to see what the community called Gang Members is up to. The website includes a page to see recent YouTube uploads, who is currently Member of the Month and blog posts posted by GM staff.
 
-## Todo
-
-Everything!
+The website is made using Node and Typescript. It is currently still in development
 
 ## Canva link
 
