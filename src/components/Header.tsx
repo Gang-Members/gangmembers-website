@@ -13,6 +13,11 @@ export default function header() {
                     <li><a href="/login">login</a></li>
                 </ul>
             </nav>
+            <section className="BIGlogo">
+                <img src="https://via.placeholder.com/500" alt="logo" />
+                <p>GangMembers</p>
+            </section>
         </header>
+
     );
 };
